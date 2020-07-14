@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <h1>This is third JS demo</h1>
+        <h2>Get the Current Date</h2>
+    </head>
+      <body>
+          <p id="sample"></p>
+          <script>
+             var today= new Date();
+             var date = today.getMonth()+'-'+(today.getDate()+1)+'-'+today.getFullYear();
+             
+            document.getElementById("sample").innerHTML = date;
+            </script>
+      </body>
+</html> 
